@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+<body>
+    <header>
+        <h1>TechFest 2026</h1>
+    <nav>
+        <ul>
+            <a href="Project2.1.html">Home</a>||
+            <a href="Project2.2.html">Events</a>||
+            <a href="Project2.3.html">Register</a>||
+        </ul>
+    </nav>
+    </header>
+
+    <hr>
+
+    <main>
+        <h2>Register for TechFest 2026</h2>
+        <fieldset>
+        <form action="submit_registration.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone"><br><br>
+            <label for="event">Select Event:</label>
+            <select id="event" name="event">
+                <option value="coding_contest">Coding Contest</option>
+                <option value="web_design_challenge">Web Design Challenge</option>
+            </select><br><br>
+            <input type="submit" value="Register">
+        </form>
+        </fieldset>
+        <hr>
+        <footer>
+        <p>&copy;copyright 2026 || For any query please contact us at :- <a href="mailto:info@techfest2026.com">info@techfest2026.com</a></p>
+    </footer>
+    </main>
+</body>
+</html>
